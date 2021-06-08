@@ -6,10 +6,10 @@ import PokeList from "./PokeList";
 //console.log(data);
 const App = () => {
   return (
-    <>
-      <h1 className="pokListTitle">Mi lista de Pokemon</h1>
+    <div className="pokContainer">
+      <h1 className="pokListTitle">mi lista de Pokemon</h1>
       <PokeList data={data} />
-    </>
+    </div>
   );
 };
 
