@@ -1,11 +1,7 @@
 import React from "react";
 
-//me faltan las PropTypes
-// <div className="icono">{props.clubData.fa}</div>
-// <div className="clubName">{props.clubData.name}</div>
-
 const Pokemon = (props) => {
-  //console.log(props.clubData);
+  //console.log(props.pokeData);
 
   const renderTypes = () => {
     return props.pokeData.types.map((type) => {
@@ -25,13 +21,5 @@ const Pokemon = (props) => {
     </article>
   );
 };
-
-/*PropTypes(previamente hay que instalarse: --save props-types)
-ClubCard.PropTypes = {
-  clubData: PropTypes.shape ({
-    name: PropTypes.string,
-    fa: PropTypes.string,
-    members: PropTypes.array
-}*/
 
 export default Pokemon;

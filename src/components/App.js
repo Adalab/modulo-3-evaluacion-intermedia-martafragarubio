@@ -3,7 +3,7 @@ import "../stylesheets/App.css";
 import data from "../data/data.json";
 import PokeList from "./PokeList";
 
-//console.log(Data);
+//console.log(data);
 const App = () => {
   return (
     <>
