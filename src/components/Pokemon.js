@@ -4,13 +4,17 @@ const Pokemon = (props) => {
   //console.log(props.pokeData);
 
   const renderTypes = () => {
-    return props.pokeData.types.map((type) => {
-      return <li className="pokType">{type}</li>;
+    return props.pokeData.types.map((type, index) => {
+      return (
+        <li key={index} className="pokType">
+          {type}
+        </li>
+      );
     });
   };
 
   return (
-    <article>
+    <article className="pokOrder">
       <img
         src={props.pokeData.url}
         className="pokImage"
