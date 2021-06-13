@@ -25,6 +25,11 @@
 .pokListOne {
   list-style: none;
 }
+.pokListOne:hover {
+  background-color: #042218;
+  border-radius: 15px;
+  cursor: pointer;
+}
 .pokOrder {
   display: flex;
   flex-direction: column;
@@ -37,6 +42,7 @@
   padding: 15px;
   margin: 10px;
 }
+
 .pokName {
   font-family: monospace;
   color: #042218;
