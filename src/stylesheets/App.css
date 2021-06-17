@@ -1,6 +1,7 @@
 * {
   background-color: #e0f2ec;
 }
+
 .pokContainer {
   display: flex;
   flex-direction: column;
